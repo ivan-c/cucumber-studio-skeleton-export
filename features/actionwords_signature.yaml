@@ -1,0 +1,29 @@
+---
+- name: I have launched the website "p1"
+  uid: e356a7d7-23b8-4cda-b9d4-64463825fd36
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I add the item to the cart
+  uid: c604a62d-52ff-41d8-9219-da073966a875
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the item "p1" should be added to cart
+  uid: b638f909-b19e-4433-8a5a-ca2ba908d3bd
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: price should equal "p1"
+  uid: 39dff63e-861b-4658-bafe-50487adcbb88
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have searched for item "p1"
+  uid: fca98db3-87a3-422c-8542-2a8f3e62927a
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have navigated to the Product page
+  uid: '08b0aac7-3b64-495f-bdb8-5fa60bc0d022'
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
